@@ -97,6 +97,7 @@ try {
 export const checkAuth=(req,res)=>{
  try {
      res.status(200).json(req.user)
+     console.log(req.user);
     } catch (error) {
       console.log("error in checkAuth "+err.Message);
       res.status(500).send("Internal server error")
