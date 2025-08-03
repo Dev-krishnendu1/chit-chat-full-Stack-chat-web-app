@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "proxy":"http://localhost:5173/",
+  "proxy": "http://localhost:5173/",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -20,6 +21,7 @@
     "dotenv": "^17.0.0",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
+    "mern-chat-web": "file:..",
     "mongoose": "^8.16.1",
     "socket.io": "^4.8.1"
   },
